@@ -14,29 +14,14 @@
       </div>
 
       <div style="display: flex; margin-top: 30px">
-        <div
-          style="
-            margin-right: 50px;
-            margin-top: 10px;
-            width: 100%;
-            display: block;
-          "
-          class="videoWrapper videoWrapper169 js-videoWrapper"
-        >
-          <iframe
+        <div class="landing__videoWrapper">
+          <!-- <iframe
             class="videoIframe js-videoIframe"
             src=""
             frameborder="0"
             allowTransparency="true"
             allowfullscreen
-          ></iframe>
-
-          <button
-            class="videoPoster js-videoPoster"
-            style="background-color: #361c5d; border-radius: 4px; width: 140px"
-          >
-            Play video
-          </button>
+          ></iframe> -->
         </div>
 
         <div>
@@ -125,88 +110,17 @@ html {
 .landing__right--size {
   width: 105%;
 }
-.videoWrapper {
-  position: relative;
-  width: 160px;
-  height: 0;
+.landing__videoWrapper {
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 220px;
+  display: block;
+  height: 90px;
+  opacity: 30%;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 86px;
 }
-.videoIframe {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  background-color: transparent;
-}
-.videoPoster {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-  border: 0;
-  outline: none;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-  background-size: cover;
-  text-indent: -999em;
-  overflow: hidden;
-  opacity: 1;
-  -webkit-transition: opacity 800ms, height 0s;
-  -moz-transition: opacity 800ms, height 0s;
-  transition: opacity 800ms, height 0s;
-  -webkit-transition-delay: 0s, 0s;
-  -moz-transition-delay: 0s, 0s;
-  transition-delay: 0s, 0s;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 67%;
-    left: 60%;
-    width: 50px;
-    height: 50px;
-    margin: -40px 0 0 -40px;
-    border-radius: 100%;
-    transition: border-color 300ms;
-    background-color: #fff;
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    margin: -8px 0 0 -5px;
-    border-left: 16px solid #361c5d;
-    border-top: 10px solid transparent;
-    border-bottom: 11px solid transparent;
-    transition: border-color 300ms;
-  }
-  &:hover,
-  &:focus {
-    &:before {
-      border-color: $color-button-hover;
-    }
-    &:after {
-      border-left-color: $color-button-hover;
-    }
-  }
-  .videoWrapperActive & {
-    opacity: 0;
-    height: 0;
-    -webkit-transition-delay: 0s, 800ms;
-    -moz-transition-delay: 0s, 800ms;
-    transition-delay: 0s, 800ms;
-  }
-}
-
 @media screen and (max-width: 1000px) {
 }
 

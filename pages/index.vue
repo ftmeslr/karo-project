@@ -52,7 +52,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .btn {
-    width: 127px;
+    width: 125px;
     margin-left: 0;
   }
 }

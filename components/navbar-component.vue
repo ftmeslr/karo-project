@@ -17,8 +17,8 @@
         <a href="" class="navbar__link">BENEFITS</a>
       </nav>
       <div class="test">
-        <button href="" class="button btn btn--fill">sign in</button>
-        <button href="" class="button btn btn--border">sign up</button>
+        <button href="" class="button btn btn--border ">sign in</button>
+        <button href="" class="button btn btn--fill">sign up</button>
         <label for="navbar-toggler" class="navbar-toggler">
           <i class="fas fa-bars"></i>
         </label>

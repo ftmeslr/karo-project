@@ -160,7 +160,9 @@ top: 10px;
     #000000 100%
   );
 }
-
+.social__item-img{
+  margin: 0 4px;
+}
 
 @media screen and (max-width: 992px) {
   .footer__item {
