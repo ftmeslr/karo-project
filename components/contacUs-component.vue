@@ -9,8 +9,8 @@
     </p>
 
     <div>
-      <input type="text" placeholder="your Email" />
-      <button>send</button>
+      <input class="contactus__input" type="text" placeholder="your Email" />
+      <button class="contactus__btn">send</button>
     </div>
     <p class="contactus__nospam">
       No spam. Only releases, updates and discounts
@@ -56,6 +56,24 @@
   left: 0;
   opacity: 30%;
   width: 100%;
+}
+
+.contactus__btn {
+  width: 128px;
+  height: 50px;
+  background-color: #f2994a;
+  border: none;
+  color: #fff;
+}
+
+.contactus__input {
+  width: 300px;
+  height: 50px;
+  background-color: #7f7f7f;
+  opacity: 35%;
+  border: none;
+  padding: 0 10px;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .contactus {

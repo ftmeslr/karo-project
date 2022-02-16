@@ -20,7 +20,7 @@
 
       <div class="choice__box-row">
         <choiceBox-component
-          v-for="(choice , index) in choices"
+          v-for="(choice, index) in choices"
           :key="index"
           :title="choice.title"
           :subtitle="choice.subtitle"
@@ -73,24 +73,6 @@ export default {
           img_src: "icon-6",
         },
       ],
-
-      // title: [
-      //   "Ecstatic elegance",
-      //   "Folly words widow",
-      //   "Possible procured trifling",
-      //   "Open game",
-      //   "Endeavor",
-      //   "Comfort pursuit",
-      // ],
-      // subtitle: [
-      //   "Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add.",
-      //   "Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what.",
-      //   "We me rent been part what. An concluded sportsman offending so provision mr education.",
-      //   "Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable.",
-      //   "Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady. ",
-      //   "Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.",
-      // ],
-      // img_src: ["icon-1", "icon-2", "icon-3", "icon-4", "icon-5", "icon-6"],
     };
   },
 };

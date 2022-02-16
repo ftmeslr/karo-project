@@ -148,7 +148,7 @@
   }
 
   .navbar__toggler-check:checked + .navbar__menu {
-    top: 64px;
+    top: 124px;
   }
 }
 </style>
