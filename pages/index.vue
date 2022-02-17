@@ -31,24 +31,24 @@ body {
   margin: auto;
   background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
 }
-.btn {
-  width: 157px;
-  height: 46px;
-  border-radius: 3px;
-  letter-spacing: 2px;
-}
-.btn--fill {
-  background-color: #f2994a;
-  border: none;
-  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
-  color: #fff;
-}
-.btn--border {
-  margin-left: 20px;
-  background-color: transparent;
-  border: 1px solid #f2994a;
-  color: #f2994a;
-}
+// .btn {
+//   width: 157px;
+//   height: 46px;
+//   border-radius: 3px;
+//   letter-spacing: 2px;
+// }
+// .btn--fill {
+//   background-color: #f2994a;
+//   border: none;
+//   box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+//   color: #fff;
+// }
+// .btn--border {
+//   margin-left: 20px;
+//   background-color: transparent;
+//   border: 1px solid #f2994a;
+//   color: #f2994a;
+// }
 
 @media screen and (max-width: 900px) {
   .btn {
