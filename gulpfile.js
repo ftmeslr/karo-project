@@ -2,8 +2,8 @@ const { src, dest } = require('gulp');
 var gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const minifyCss = require('gulp-clean-css');
-var changed = require('gulp-changed');
-var imagemin = require('gulp-imagemin');
+// const imagemin = require('gulp-imagemin')
+
 const bundleCss = () => {
 
     return src('assets/css/*.css')
@@ -14,19 +14,16 @@ exports.bundleCss = bundleCss;
 
 function sassTask() {
     return gulp.src('assets/scss/main.scss')
-        .pipe(sass()) 
+        .pipe(sass())
         .pipe(gulp.dest('assets/css'))
 };
 exports.sass = sassTask;
 
-gulp.task('imagemin', function () {
-    var imgSrc = 'assets/img/*.+(png|jpg|gif|svg)',
-        imgDst = 'build/images';
+// function imageminTask() {
 
-    gulp.src(imgSrc)
-        .pipe(changed(imgDst))
-        .pipe(imagemin())
-        .pipe(gulp.dest(imgDst));
-});
+//     gulp.src('src/images/*')
+//         .pipe(imagemin())
+//         .pipe(gulp.dest('dist/images'))
+// }
 
-exports.imagemin = imagemin;
+// exports.imagemin = imageminTask;
