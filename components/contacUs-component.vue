@@ -8,7 +8,7 @@
       your situation.
     </p>
 
-    <div>
+    <div class="contactus__input-box">
       <input class="contactus__input" type="text" placeholder="your Email" />
       <button class="contactus__btn">send</button>
     </div>
@@ -82,5 +82,21 @@
   .contactus__title {
     font-size: 26px;
   }
+}
+
+@media screen and (max-width: 768px) {
+.contactus__input-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactus__btn{
+  margin-top: 5px;
+  width: 298px;
+}
+.contactus__input{
+  width: 280px;
+}
 }
 </style>

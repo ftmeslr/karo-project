@@ -5,7 +5,6 @@ const minifyCss = require('gulp-clean-css');
 // const imagemin = require('gulp-imagemin')
 
 const bundleCss = () => {
-
     return src('assets/css/*.css')
         .pipe(minifyCss())
         .pipe(dest('dist/css'))
@@ -27,3 +26,9 @@ exports.sass = sassTask;
 // }
 
 // exports.imagemin = imageminTask;
+
+// function copyfonts() {
+//     gulp.src('assets/fonts/')
+//     .pipe(gulp.dest('fonts'));
+// }
+// exports.copyfonts = copyfonts;

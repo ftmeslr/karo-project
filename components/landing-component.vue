@@ -87,39 +87,21 @@ html {
   align-items: center;
   margin-top: 40px;
 }
-// .btn {
-//   width: 157px;
-//   height: 46px;
-//   border-radius: 3px;
-//   letter-spacing: 2px;
-// }
 
-// .btn--fill {
-//   background-color: #f2994a;
-//   border: none;
-//   box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
-//   color: #fff;
-// }
-// .landing__btn--border {
-//   margin-left: 20px;
-//   background-color: transparent;
-//   border: 1px solid #f2994a;
-//   color: #f2994a;
-// }
-// .landing__right--size {
-//   width: 105%;
-// }
-// .landing__videoWrapper {
-//   margin-right: 20px;
-//   margin-top: 10px;
-//   width: 220px;
-//   display: block;
-//   height: 90px;
-//   opacity: 30%;
-//   background-color: #fff;
-//   border-radius: 5px;
-//   height: 86px;
-// }
+.landing__right--size {
+  width: 105%;
+}
+.landing__videoWrapper {
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 220px;
+  display: block;
+  height: 90px;
+  opacity: 30%;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 86px;
+}
 @media screen and (max-width: 1000px) {
 }
 
